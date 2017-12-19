@@ -1,5 +1,7 @@
 aws-lambda-s3-dotenv
 ====================
+[![Build Status](https://travis-ci.org/jmstone617/aws-lambda-s3-dotenv.svg?branch=master)](https://travis-ci.org/jmstone617/aws-lambda-s3-dotenv)
+[![Coverage Status](https://coveralls.io/repos/github/jmstone617/aws-lambda-s3-dotenv/badge.svg?branch=master)](https://coveralls.io/github/jmstone617/aws-lambda-s3-dotenv?branch=master)
 
 AWS's [Lambda functions](https://aws.amazon.com/lambda/) are incredibly powerful constructs for any cloud architecture. Coupled with [versions](https://docs.aws.amazon.com/lambda/latest/dg/versioning-intro.html) and [aliases](https://docs.aws.amazon.com/lambda/latest/dg/aliases-intro.html), Lambda is well-suited for many use cases.
 
