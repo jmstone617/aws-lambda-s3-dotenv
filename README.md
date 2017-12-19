@@ -11,6 +11,8 @@ A common way of loading configurable environment variables is the popular module
 
 *TIP:* It is helpful to pass the cache location as an environment variable separate from dotenv, as you can use something like `CONFIG_LOCATION = .env` for development on your local machine and `CONFIG_LOCATION = /tmp` in Lambda.
 
+*NOTE:*: The `localPath` passed into the module should be _relative to the root_ of your project. For example, if you are trying to load a file located at `project/subdir/.env` and your source file is located at `project/subdir/index.js`, your `localPath` should be `./subdir/.env`, as opposed to `./.env` or similar.
+
 ## Installation
 `npm install aws-lambda-s3-dotenv`
 
